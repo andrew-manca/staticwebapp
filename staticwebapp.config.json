@@ -23,12 +23,12 @@
         "statusCode": 404
       },
       {
-        "route": "/*",
-        "allowedRoles": ["authenticated"]
-      },
-      {
         "route": "/logout",
         "redirect": "/.auth/logout"
+      },
+      {
+        "route": "/*",
+        "allowedRoles": ["authenticated"]
       }
 
     ],
